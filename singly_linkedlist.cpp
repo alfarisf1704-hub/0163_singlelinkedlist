@@ -22,9 +22,9 @@ public:
     {
         int nim;
         cout << "\nMasukkan Nomor Mahasiswa: ";
-        cin >> nim :
+        cin >> nim;
 
-            Node *nodeBaru = new Node;
+        Node *nodeBaru = new Node;
         nodeBaru->noMhs = nim;
 
         if (START == NULL || nim <= START->noMhs)
