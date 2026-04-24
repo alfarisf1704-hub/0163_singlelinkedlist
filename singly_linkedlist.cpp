@@ -162,6 +162,13 @@ int main()
             mhs.traverse();
         }
         break;
+        case '4':
+        {
+            if (mhs.ListEmpty() == true)
+            {
+            }
+        }
+        break;
         }
     }
 }
